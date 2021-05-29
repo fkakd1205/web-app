@@ -1,0 +1,1007 @@
+﻿@charset "UTF-8";
+
+@font-face {
+    font-family: FONT;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+	height: 100%;
+	overflow: auto;
+}
+
+*, h1, h2, h3, h4, h5, h6, p {
+	font-family: FONT, cursive;
+}
+
+a {
+	cursor: pointer;
+}
+
+input {
+	width: 300px;
+}
+
+.page-max-w {
+	max-width: 1500px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+img.person {
+	width: 100px;
+	height: 100px;
+}
+
+button.userSelect {
+	width: 250px;
+}
+
+img.person-card {
+	width: 30%;
+}
+
+.dialog-button {
+	width: 50%;
+	border: 1px solid lightgray;
+}
+
+.card4-max-w {
+	width: 600px;
+}
+
+.main-left {
+	postion: relative;
+	top:30%;
+	transform: translateY(30%);
+}
+
+.stage-box {
+	postion: relative;
+	top:35%;
+	transform: translateY(35%);
+}
+
+.stage-btn {
+   width: 80%;
+   height: 80px;
+   margin: 2px;
+   font-size: 120%;
+}
+
+.b-radius-10 {
+	border-radius: 10px;
+}
+
+.pdf-btn{
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+.record-header{
+	height: 80px;
+	width: 100%;
+}
+
+.record-title {
+	font-size: 24px;
+}
+
+.btn-opacity {
+	 opacity: 0.7;
+}
+
+.join-login-box {
+	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+}
+
+.login-box {
+	transform: translateY(40%);
+}
+
+.record-table, .info-table {
+	width: 80%;
+	margin: auto;
+}
+
+.record-data {
+	border-right: 1px solid lightgray;
+}
+
+.stageInfo-box{
+	width: 100%;
+	margin-top: 20%;
+	margin: 5%;
+}
+
+.option-left {
+	width:10%;
+}
+
+.option-middle {
+	width: 80%;
+}
+
+.option-right {
+	width:10%;
+}
+
+.w-20 {
+	width: 20%;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-33 {
+	width: 33%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.w-65 {
+	width: 65%;
+}
+
+.w-75 {
+	width : 75%;
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.w-90 {
+	width: 90%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.h-12 {
+	height: 12%;
+}
+
+.h-35 {
+	height: 35px;
+}
+
+.h-50 {
+	height: 50px;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.stage-content {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+}
+
+.option-content {
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.questSize {
+	font-size: 24px;
+}
+
+.step1Btn {
+	width : 30%;
+	margin: 12px;
+	font-size: 25px;
+	height: 30%;
+	background: white;
+	padding : 2%;
+	border-radius: 13px;
+}
+
+.step2Btn, .step3Btn {
+	width : 40%;
+	margin: 12px;
+	font-size: 30px;
+	height: 30%;
+	background: white;
+	padding : 5%;
+	border-radius: 13px;
+}
+
+.step4Btn {
+	width : 35%;
+	margin: 12px;
+	font-size: 30px;
+	height: 30%;
+	background: white;
+	padding : 5%;
+	border-radius: 13px;
+}
+
+/* Symbol for PC - 한줄에 8개 */
+.stage-display{
+	width: 100%;
+	height: 90%;
+	margin-top: 5px;
+	overflow: auto;
+}
+
+.stage-info-display {
+	width: 100%;
+	height: 80%;
+	margin-top: 5px;
+	overflow: auto;
+}
+
+.btnSize {
+	width: 5%;
+	height: 10%;
+	border: 1px;
+	margin-right: 17px;
+}
+
+.ex2 {
+	width: 25%;
+	margin: 18px;
+	border: none;
+	display: inline-block;
+}
+
+.ex4 {
+	width: 19%;
+	margin: 10px;
+	border: none;
+	display: inline-block;
+}
+
+.ex8 {
+	width: 20%;
+	margin: 10px;
+	border: none;
+	display: inline-block;
+}
+
+.ex15 {
+	width: 16%;
+	margin: 10px;
+	border: none;
+	display: inline-block;
+}
+
+.ex24 {
+	width: 15%;
+	margin: 4px;
+	border: none;
+	display: inline-block;
+}
+
+.ex40, .ex80 {
+	width: 11%;
+	margin: 3px;
+	border: none;
+	display: inline-block;
+}
+
+.ex60 {
+	width: 9%;
+	margin: 2px;
+	border: none;
+	display: inline-block;
+}
+
+.ex3-1 {
+	width: 15%;
+	margin: 10px;
+	border: none;
+	display: inline-block;
+}
+
+.cell-display2 {
+	margin-left: 14%;
+	margin-right: 14%;
+}
+
+.cell-display4 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.cell-display8 {
+	margin-left: 14%;
+	margin-right: 14%;
+}
+
+.cell-display15 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.cell-display24 {
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.cell-4display24 {
+	margin-left: 19%;
+	margin-right: 19%;
+}
+
+.cell-display40, .cell-display80 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.cell-4display40, .cell-4display80 {
+	margin-left: 14%;
+	margin-right: 14%;
+}
+
+.cell-display60 {
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+/*******************************************************/
+
+.startBtn1 {
+	height: 100px;
+}
+
+.startBtn2 {
+	width: 30%;
+	height: 90%;
+	font-size: 20px;
+}
+
+.stage3 {
+   width: 18%;
+   background: white;
+}
+
+.btn {
+	width: 10%;
+	height: 50px;
+}
+
+.stage-in-display {
+	height: 100%;
+}
+
+.myExpress {
+	height: 100%;
+}
+
+.stage3-cell {
+	width: 100%;
+	height: 70%;
+}
+
+.stage4-cell {
+	width: 100%;
+	height: 80%;
+}
+
+#navi {
+    position: fixed;
+    left: 0;
+    height: inherit;
+    overflow-y: auto;
+}
+
+#content {
+    position: absolute;
+    right: 0;
+    height: inherit;
+    overflow-y: scroll;
+}
+
+.infoList {
+	position: fixed;
+    left: 0;
+    height: inherit;
+    overflow-y: auto;
+}
+
+.infoBody {
+	margin-left:25%;
+}
+
+.infoListStyle {
+    list-style-type: disc;
+}
+
+.upBtn {
+	background-color: rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+}
+
+/* Symbol for Tablet2 */
+@media only screen and (max-width: 1300px) {
+	
+	.textControl{
+		display:none;
+	}
+	
+	/*************************************************/
+	
+	.startBtn1 {
+		height: 90px;
+	}
+	
+	.startBtn2 {
+		width: 30%;
+		height: 90%;
+		font-size: 20px;
+	}
+	
+	.btn {
+		width: 15%;
+		height: 45px;
+	}
+	
+	.infoList {
+		width:25%;
+		position:fixed;
+		margin-top:5%;
+	}
+	
+	.infoBody {
+		margin-left:25%;
+	}
+	
+	/*-------------------------------------------------------*/
+	
+	.stage-btn {
+   		width: 100%;
+   		height: 80px;
+   		margin: 2px;
+   		font-size: 100%;
+	}
+	
+	.ex2 {
+		width: 27%;
+		margin: 18px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex4 {
+		width: 24%;
+		margin: 5px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex8 {
+		width: 20%;
+		margin: 10px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex15 {
+		width: 17%;
+		margin: 6px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex24 {
+		width: 15%;
+		margin: 3px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex40, .ex80 {
+		width: 11%;
+		margin: 2px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex60 {
+		width: 9%;
+		margin: 2px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex3-1 {
+		width: 16%;
+		margin: 8px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.cell-display24 {
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+	
+	.cell-4display24 {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	.step2Btn, .step3Btn {
+		width: 40%;
+		margin: 12px;
+		font-size: 25px;
+		height: 30%;
+		background: white;
+		padding: 5%;
+		border-radius: 13px;
+	}
+	
+	.step4Btn {
+		width: 35%;
+		margin: 12px;
+		font-size: 25px;
+		height: 30%;
+		background: white;
+		padding: 5%;
+		border-radius: 13px;
+	}
+	
+	.main-left {
+		postion: relative;
+		top: 25%;
+		transform: translateY(25%);
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	
+	.cell-display24 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	.cell-display40, .cell-display80 {
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+	
+	.cell-display60 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+/* Symbol for Tablet */
+@media only screen and (max-width: 900px) {
+	
+	.questSize {
+		font-size: 20px;
+	}
+
+	.hide-in-screen {
+		display: none;
+	}
+	
+	.textControl{
+		display:none;
+	}
+	
+	/*************************************************/
+	
+	.startBtn1 {
+		height: 80px;
+	}
+	
+	.startBtn2 {
+		width: 30%;
+		height: 90%;
+		font-size: 20px;
+	}
+	
+	.btn {
+		width: 13%;
+		height: 45px;
+	}
+	
+	.infoList {
+		display: none;
+	}
+	
+	.infoBody {
+		marin: 0 auto;
+	}
+	
+	/*************************************************/
+	
+	.ex2 {
+		width: 35%;
+		margin: 18px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex4 {
+		width: 29%;
+		margin: 5px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex6 {
+		width: 35%;
+		margin: 5px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex8 {
+		width: 21%;
+		margin: 5px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex15 {
+		width: 27%;
+		margin: 4px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex24 {
+		width: 22%;
+		margin: 3px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex40, .ex80 {
+		width: 15%;
+		margin: 2px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex60 {
+		width: 14%;
+		margin: 4px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex3-1 {
+		width: 18%;
+		margin: 5px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.cell-display8 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.cell-display24 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.cell-display40, .cell-display80 {
+		margin-left: 11%;
+		margin-right: 11%;
+	}
+	
+	.cell-display60 {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+	.step2Btn, .step3Btn {
+		width: 40%;
+		margin: 12px;
+		font-size: 17px;
+		height: 30%;
+		background: white;
+		padding: 5%;
+		border-radius: 13px;
+	}
+	
+	.step4Btn {
+		width: 40%;
+		margin: 12px;
+		font-size: 100%;
+		height: 30%;
+		background: white;
+		padding: 5%;
+		border-radius: 13px;
+	}
+	
+	.main-left {
+		postion: relative;
+		top: 15%;
+		transform: translateY(15%);
+	}
+	
+	.record-title {
+		font-size: 20px;
+	}
+	
+	.record-pdf {
+		font-size: 0px;
+	}
+}
+
+/* Symbol for Mobile */
+@media only screen and (max-width: 600px) {
+
+	img.person {
+		width: 60px;
+		height: 60px;
+	}
+	
+	button.userSelect {
+		width: 150px;
+		font-size: 12px;
+	}
+	
+	.textControl{
+		display:none;
+	}
+	
+	.text-size h3 {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	.main-left {
+		postion: relative;
+		top: 0%;
+		transform: translateY(0%);
+	}
+	
+	.stage-box {
+		postion: relative;
+		top: 0%;
+		transform: translateY(0%);
+	}
+	
+	/*************************************************/
+	
+	.startBtn1 {
+		height: 70px;
+	}
+	
+	.startBtn2 {
+		width: 50%;
+		height: 90%;
+		font-size: 20px;
+	}
+	
+	.btn {
+		width: 30%;
+		height: 40px;
+	}
+	
+	.infoList {
+		display: none;
+	}
+	
+	.infoBody {
+		marin: 0 auto;
+	}
+	
+	/*---------------------------------*/
+	
+	.ex2 {
+		width: 40%;
+		margin: 7px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex4 {
+		width: 38%;
+		margin: 5px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex6 {
+		width: 35%;
+		margin: 5px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex8 {
+		width: 35%;
+		margin: 7px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex15 {
+		width: 35%;
+		margin: 7px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex24 {
+		width: 29%;
+		margin: 2px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex40, .ex80 {
+		width: 22%;
+		margin: 2px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex60 {
+		width: 17%;
+		margin: 2px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.ex3-1 {
+		width: 30%;
+		margin: 8px;
+		border: none;
+		display: inline-block;
+	}
+	
+	.cell-display2 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.cell-4display24 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.cell-display40, .cell-display80 {
+		margin-left: 13%;
+		margin-right: 13%;
+	}
+	
+	.cell-4display40, .cell-4display80 {
+		margin-left: 22%;
+		margin-right: 22%;
+	}
+
+	.cell-display60 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.btnSize {
+		width: 8%;
+		height: 10%;
+		border: 1px;
+		margin-right: 17px;
+	}
+	
+	.step1Btn {
+		width: 35%;
+		margin: 12px;
+		font-size: 25px;
+		height: 30%;
+		background: white;
+		padding: 5%;
+		border-radius: 13px;
+	}
+	
+	.step2Btn, .step3Btn, .setp4Btn {
+		width: 70%;
+		margin: 12px;
+		font-size: 100%;
+		height: 30%;
+		background: white;
+		padding: 5%;
+		border-radius: 13px;
+	}
+	
+}
+
+/* Symbol for Mobile2 */
+@media only screen and (max-width: 400px) {
+	.cell-4display24 {
+		margin-left: 18%;
+		margin-right: 18%;
+	}
+
+	.cell-4display40, .cell-4display80 {
+		margin-left: 16%;
+		margin-right: 16%;
+	}
+}
+
+/*-----------------------------------------------------------*/
+
+/* general */
+body {
+	margin: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+	height: 70px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.img-btn {
+	background-color: transparent;
+	border-style: none;
+	cursor: pointer;
+}
+
+.center-parent {
+	height: inherit;
+	position: relative;
+}
+
+.v-center-child {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.b {
+	font-weight: bold;
+}
+
+.inline-b {
+	display: inline-block;
+}
+
+.border-none {
+	border-style: none;
+}
+
+.border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.m-t-5 {
+	margin-top: 3px;
+}
+
+.m-t-10 {
+	margin-top: 10px;
+}
+
+.img100 {
+	width:100%;
+}
