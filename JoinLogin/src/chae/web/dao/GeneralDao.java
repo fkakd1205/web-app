@@ -15,6 +15,8 @@ public class GeneralDao {
 	private final static String SQLST_INSERT_FACILITATOR = "INSERT INTO web_user(user_email, user_pw, user_name) VALUES(?, ?, ?)";
 	// 로그인
 	private final static String SQLST_SELECT_PASSWORD = "SELECT user_pw FROM web_user WHERE user_email =?";
+	// 탈퇴하기
+	private final static String SQLST_DELETE_FACILITATOR = "DELETE FROM web_user WHERE user_email = ?";
 
 	/* 주어진 email이 DB내 존재하는지 확인(아이디 중복확인)
 	 * 
@@ -105,6 +107,26 @@ public class GeneralDao {
 		} catch (Exception e) {
 			e.printStackTrace();
 			return -1; // DB 연결 오류
+		}
+	}
+	
+	/* email을 이용하여 사용자 정보 삭제하기(탈퇴하기)
+	 * 
+	 * 성공 시 return 삭제된 row 개수
+	 * 실패 시 return -1
+	 */
+	public static int deleteFacilitatorByEmail(Connection conn, String email) {
+
+		try (PreparedStatement pstmt = conn.prepareStatement(SQLST_DELETE_FACILITATOR);) {
+
+			pstmt.setString(1, email);
+			int deleteCount = pstmt.executeUpdate();
+
+			return deleteCount;
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return -1;
 		}
 	}
 }

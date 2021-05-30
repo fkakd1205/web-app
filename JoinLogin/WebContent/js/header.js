@@ -11,3 +11,13 @@ function myFunction() {
 function reset() {
 	window.location.href = "./index.jsp";
 }
+
+//로그아웃
+function logout() {
+	window.location.href = "./Logout";
+}
+
+//탈퇴
+function withdraw() {
+	window.location.href = "./Withdraw";
+}

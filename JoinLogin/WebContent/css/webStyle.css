@@ -190,6 +190,10 @@ img.person-card {
 	height: 100%;
 }
 
+.header-user-info {
+	margin-right: 50px;
+}
+
 .stage-content {
 	width: 100%;
 	height: 50px;
