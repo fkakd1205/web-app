@@ -14,10 +14,32 @@ function reset() {
 
 //로그아웃
 function logout() {
-	window.location.href = "./Logout";
+	swal({
+		  title: "로그아웃",
+		  text: "로그아웃하시겠습니까?",
+		  icon: "warning",
+		  buttons: ["취소", "확인"],
+		  dangerMode: true,
+		})
+		.then((willDelete) => {
+		  if (willDelete) {
+			  window.location.href = "./Logout";
+		  }
+		});
 }
 
 //탈퇴
 function withdraw() {
-	window.location.href = "./Withdraw";
+	swal({
+		  title: "탈퇴",
+		  text: "정말로 탈퇴 하시겠습니까?",
+		  icon: "warning",
+		  buttons: ["취소", "확인"],
+		  dangerMode: true,
+		})
+		.then((willDelete) => {
+		  if (willDelete) {
+			  window.location.href = "./Withdraw";
+		  }
+		});
 }
