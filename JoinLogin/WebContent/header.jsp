@@ -9,9 +9,9 @@
 			<div class="w3-display-right">
 				<a href="join.jsp" class="w3-hide-small w3-padding-small w3-right">${id == NULL ? "회원가입" : ""}</a>
 				<a onclick=${id == NULL ? "location='login.jsp'" : ""} class="w3-hide-small w3-padding-small w3-right">${id == NULL ? "로그인": ""}</a>
-				<div class="w3-hide-small w3-padding-small w3-dropdown-hover header-user-info">${id == NULL ? "" : id}
+				<div class="w3-hide-small w3-padding-small w3-dropdown-hover">${id == NULL ? "" : id}
 				<% if(id != null) {%>
-					<div class="w3-dropdown-content w3-bar-block w3-border w3-center w-100">
+					<div class="w3-dropdown-content w3-bar-block w3-border w3-center w-100 dropdown-right">
 					    <a class="w3-bar-item w3-button" onclick="logout()">로그아웃</a>
 					    <a class="w3-bar-item w3-button" onclick="withdraw()">탈퇴</a>
 					</div>
