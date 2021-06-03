@@ -39,6 +39,11 @@
 * 확인 버튼 누르면 로그아웃 or 탈퇴 O.
 * 취소 버튼 누르면 로그아웃 or 탈퇴 X.
 
+<br />
+
+## 2. [DBCP 연결 방법](./DBCP연결)
+
+<br />
 
 ## 참고자료
 * 폰트 - [인티니티산스 Regular](https://noonnu.cc/font_page/426)
