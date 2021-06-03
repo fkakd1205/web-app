@@ -24,7 +24,7 @@
 #### 로그아웃, 회원탈퇴 구현   
 
 [로그아웃, 탈퇴]  
-<img src="https://user-images.githubusercontent.com/35367660/120106827-9215ee80-c199-11eb-8bb8-606597ad39b7.PNG" width="500">
+<img src="https://user-images.githubusercontent.com/35367660/120622432-c3dccd00-c499-11eb-9093-736d8bb79889.PNG" width="500">
 * 로그인을 하면 header에 회원 이메일 표시되는데, 여기에 마우스 올려놓으면 드롭다운 펼쳐짐
 * 로그아웃 - 현재 로그인 된 user의 세션삭제
 * 탈퇴 - DB에서 현재 로그인 된 user의 정보 삭제
@@ -33,7 +33,7 @@
 #### Alert창 구현
 
 [alert창]    
-<img src="https://user-images.githubusercontent.com/35367660/120298596-336d8380-c305-11eb-84d2-13ba9e95d583.PNG" width="500">
+<img src="https://user-images.githubusercontent.com/35367660/120622421-c17a7300-c499-11eb-9cc9-764ad27042a0.PNG" width="500">
 * 로그아웃, 탈퇴 시 alert창 띄우기
 * [SweetAlert](https://sweetalert.js.org/) 사용
 * 확인 버튼 누르면 로그아웃 or 탈퇴 O.
